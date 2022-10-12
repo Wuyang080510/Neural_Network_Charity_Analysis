@@ -2,7 +2,7 @@
 Use Pandas and Scikit-Learn to preprocess dataset, and create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Project Overview
-Alphabet Soup is a non-profit foundation that support organizations that protect environment, improve people’s well-being, and unify the world. However, not all the organizations funded by the Alphabet Soup use the fund in an impactful way. In this project I will help Alphabet Soup to find out if the foundation’s money is used effectively by the organizations funded by Alphabet Soup. I would use features in the provided dataset to create a binary classifier to predict if the organizations funded by Alphabet Soup will be successful. This model will help Alphabet Soup to decide which organization is worth to donate to and which are high risk applicants. 
+Alphabet Soup is a non-profit foundation that supports organizations that protect the environment, improve people’s well-being, and unify the world. However, not all the organizations funded by Alphabet Soup use the fund in an impactful way. In this project, I will help Alphabet Soup to find out if the foundation’s money is used effectively by the organizations funded by Alphabet Soup. I would use features in the provided dataset to create a binary classifier to predict if the organizations funded by Alphabet Soup will be successful. This model will help Alphabet Soup to decide which organization is worth donating to and which are high-risk applicants.
 
 ### The Dataset
 The dataset for this analysis is a CSV file containing more than 34,000 organizations that have received fundings from Alphabet Soup over the years. 
