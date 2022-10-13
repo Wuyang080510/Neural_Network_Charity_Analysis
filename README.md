@@ -8,7 +8,7 @@ Alphabet Soup is a non-profit foundation that supports organizations that protec
 The dataset for this analysis is a CSV file containing more than 34,000 organizations that have received fundings from Alphabet Soup over the years. 
 The metadata is as following:
 
-•	EIN and NAME—Identification columns
+-	EIN and NAME—Identification columns
 
 -	APPLICATION_TYPE—Alphabet Soup application type
 
@@ -22,7 +22,7 @@ The metadata is as following:
 
 -	STATUS—Active status
 
--   INCOME_AMT—Income classification
+- INCOME_AMT—Income classification
 
 -	SPECIAL_CONSIDERATIONS—Special consideration for application
 
@@ -42,16 +42,16 @@ EIN and NAME columns are identification columns. They do not offer any insight i
 ## Compiling, Training, and Evaluation the Model
 Fund Effectiveness Prediction Model Configuration:
 
--	hidden_nodes_layer1: 80 neurons, ReLU activation function
+-	Hidden_nodes_layer1: 80 neurons, ReLU activation function
 
--	hidden_nodes_layer2: 20 neurons, ReLU activation function
+-	Hidden_nodes_layer2: 20 neurons, ReLU activation function
 
 -	Output Layer: 1 neuron, Sigmoid activation function
 
 The target for the model is 75%. For the first try, the best accuracy the model could produce for the training dataset was 74.04%. The accuracy score for the test dataset was 72.7%.
 
 ### Model Optimization
--	Dropped the STATUS and SPECIAL_CONSIDERATION columns. More than 90% of the data in each of these two columns are the same. They do not add any power to the model’s prediction effect. 
+-	Dropped the STATUS and SPECIAL_CONSIDERATION columns. More than 90% of the data in each of these two columns are the same. They do not have any effect on adding the model’s prediction power. 
 -	Grouped the values in the ASK_AMT column, as most of the funding amounts equal $5000. The amount differs from $5000 were grouped into “other” category.
 -	Added one more hidden layer with 40 neurons.
 -	Use Tanh as an activation function 
